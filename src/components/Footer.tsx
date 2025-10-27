@@ -73,8 +73,8 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4 sm:w-5 sm:h-5 text-primary flex-shrink-0" />
-                <a href="mailto:info@horizonvalleyhospital.co.ke" className="text-background/80 hover:text-primary transition-colors break-all text-xs">
-                  info@horizonvalleyhospital.co.ke
+                <a href="mailto:enquiries@horizonvalleyhospital.co.ke" className="text-background/80 hover:text-primary transition-colors break-all text-xs">
+                  enquiries@horizonvalleyhospital.co.ke
                   </a>
               </li>
             </ul>
