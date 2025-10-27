@@ -82,7 +82,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-background/10 mt-6 sm:mt-8 pt-6 sm:pt-8 text-center text-xs sm:text-sm text-background/60">
-          <p>© 2024 Horizon Valley Hospital. All rights reserved.</p>
+          <p>© 2025 Horizon Valley Hospital. All rights reserved.</p>
         </div>
       </div>
     </footer>
