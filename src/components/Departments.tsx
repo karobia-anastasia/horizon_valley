@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Card } from "@/components/ui/card";
 import { Check } from "lucide-react";
+import geriatric_medicine from "@/assets/geriatric_medicine.jpg"
 
 const departments = [
   {
@@ -110,7 +111,7 @@ const Departments = () => {
                   <div className="relative order-first lg:order-last">
                     <div className="aspect-square bg-gradient-to-br from-primary/10 to-secondary/10 rounded-2xl overflow-hidden shadow-lg">
                       <img
-                        src={`https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=600&q=80`}
+                        src={geriatric_medicine}
                         alt={dept.name}
                         className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                       />

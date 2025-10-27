@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Check } from "lucide-react";
 
+import healthcare_provider from "@/assets/healthcare_providers.jpg"
 const About = () => {
   const features = [
     "Specialized geriatric care programs",
@@ -16,7 +17,7 @@ const About = () => {
           <div className="relative order-2 lg:order-1">
             <div className="aspect-[4/3] bg-gradient-to-br from-primary/20 to-secondary/20 rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?auto=format&fit=crop&w=800&q=80"
+                src={healthcare_provider}
                 alt="Elderly care at Horizon Valley Hospital"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
               />

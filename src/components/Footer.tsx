@@ -68,16 +68,16 @@ const Footer = () => {
                 </span>
               </li>
               <li className="flex items-center gap-2">
-                <Phone className="w-4 h-4 sm:w-5 sm:h-5 text-primary flex-shrink-0" />
-                <a href="tel:+254712345678" className="text-background/80 hover:text-primary transition-colors">
-                  +254 712 345 678
+                <Mail className="w-4 h-4 sm:w-5 sm:h-5 text-primary flex-shrink-0" />
+                <a href="mailto:info@horizonvalleyhospital.co.ke" className="text-background/80 hover:text-primary transition-colors text-xs">
+                  info@horizonvalleyhospital.co.ke
                 </a>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4 sm:w-5 sm:h-5 text-primary flex-shrink-0" />
-                <a href="mailto:info@horizonvalley.ke" className="text-background/80 hover:text-primary transition-colors break-all">
-                  info@horizonvalley.ke
-                </a>
+                <a href="mailto:info@horizonvalleyhospital.co.ke" className="text-background/80 hover:text-primary transition-colors break-all text-xs">
+                  info@horizonvalleyhospital.co.ke
+                  </a>
               </li>
             </ul>
           </div>
