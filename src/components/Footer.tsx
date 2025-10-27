@@ -8,9 +8,7 @@ const Footer = () => {
           {/* About */}
           <div>
             <div className="flex items-center gap-2 mb-3 sm:mb-4">
-              <div className="w-8 h-8 sm:w-10 sm:h-10 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center shadow-lg">
-                <span className="text-lg sm:text-xl font-bold text-white">HV</span>
-              </div>
+         
               <h3 className="text-lg sm:text-xl font-bold">Horizon Valley</h3>
             </div>
             <p className="text-background/80 text-xs sm:text-sm mb-3 sm:mb-4 leading-relaxed">
